@@ -1,11 +1,15 @@
+SHELL='bash'
 #
 # Bridges - PSC
 #
-# Intel Compilers are loaded by default; for other compilers please check the module list
+# Intel Compilers are loaded by default
+# You will need to specifically switch to GNU Modules
+# With with `modules.sh`
 #
-CC = icpc
-MPCC = mpicxx
-OPENMP = -qopenmp
+
+CC = g++
+MPCC = mpic++
+OPENMP = -fopenmp
 CFLAGS = -O3
 LIBS =
 
