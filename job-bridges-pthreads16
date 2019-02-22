@@ -1,4 +1,5 @@
 #!/bin/bash
+#SBATCH -A cc3uv3p # 2018 XSEDE Applications of Parallel Computing Course Allocation
 #SBATCH -J particle-pthreads16
 #SBATCH -o particle-pthreads16.stdout
 #SBATCH -n 16         

@@ -1,2 +1,3 @@
-Make sure you switch to the GNU compiler with OpenMPI before compiling or
-running MPI jobs.  You can do this by running `source modules.sh`.
+Make sure that you load the MPI module in your environment before launch MPI jobs.
+
+You can do this by running: 'module load mpi/intel_mvapich'
